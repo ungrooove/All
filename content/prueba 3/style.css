@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(34, 34, 34);
+    background-image: url(https://images7.alphacoders.com/133/1339451.png);
+    background-size: cover;
+}
+
+.container{
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    top: 10vh;
+    left: 1vw;
+    text-align: center;
+    width: 25%;
+    height: 500px;
+    padding: 0;
+    border-radius: 100px;
+    z-index: 10;
+}
+
+.container--jazz{
+    border: 1px solid rgba(143, 142, 142, 0.288);
+    background-color: rgb(33, 88, 136);
+    opacity: .7;
+    transition: background-color 1s, padding .5s, opacity .5s;
+    cursor: pointer;
+
+}
+
+.container--funk{
+    position: absolute;
+    background-color: rgb(255, 236, 196);
+    left: 30vw;
+    opacity: .7;
+    transition: background-color 1s, padding .5s, opacity .5s;
+    cursor: pointer;
+    
+}
+
+
+.title{
+    position: relative;
+    top: -1vh;
+    margin: 30px;
+    font-size: 5vw;
+    color: rgba(14, 14, 14, 0.932);
+    z-index: 20;
+
+
+}
+
+
+.image{
+    position: relative;
+    top: -10vh;
+    left: 0vw;
+    width: 20vw;
+    border-radius: 30%;
+    
+}
+
+.container--jazz:hover{
+    padding: 3px 0;
+    opacity: 1;
+}
+
+.container--funk:hover{
+    padding: 3px 0;
+    opacity: 1;
+
+}
+
+
+.parrafo{
+    position: relative;
+    left: 2.5vw;
+    top: -15vh;
+    color: rgb(0, 0, 0);
+    background-color: rgba(110, 140, 238, 0.788);
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    width: 20vw;
+    height: 15vh;
+    padding: 5px;
+}
+
+.parrafo--funk{
+    position: relative;
+    background-color: rgba(255, 226, 173, 0.801);
+    top: -25vh;
+    padding: 8px;
+}

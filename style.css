@@ -1,0 +1,74 @@
+body{
+    font-family: monospace;
+}
+
+
+
+
+.container{
+    display: inline-block;
+    font-size: 18px;
+}
+
+.info-content{
+    display: block;
+    text-align: start;
+    cursor: default;
+    padding: 10px 15px;
+    width: 300px;
+    
+}
+
+.name{
+    display: inline;
+    position: relative;
+    font-weight: 100;
+}
+
+
+.separation{
+    border: 1px solid rgb(160, 160, 160);
+    margin-top: 10px;
+}
+
+.content{
+    display: inline-block;
+    text-align: center;
+    text-wrap: nowrap;
+    width: 300px;
+    padding: 30px 15px;
+    cursor: default;
+}
+
+
+.img{
+    display: block;
+    width: 300px;
+    height: 190px;
+
+}
+
+.text{
+    padding: 5px;
+}
+
+
+.fechas{
+    display: inline;
+    cursor: default;
+    position: relative;
+
+}
+
+.links{
+    color: rgb(0, 35, 190);
+    cursor: pointer;
+    position: relative;
+    right: 5px;
+}
+
+.links:hover{
+    color: rgb(0, 27, 90);
+}
+
+
